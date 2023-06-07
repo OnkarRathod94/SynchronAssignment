@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Stats Page Title Verified Successfully = Players Stats and Records | IPLT20]]>
+    </line>
+    <line>
+      <![CDATA[Stats Page URL Verified Successfully = https://www.iplt20.com/stats/2023]]>
+    </line>
+    <line>
+      <![CDATA[Stats Page is Displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Cookie accepted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Search Functionality is Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Search Functionality is Enabled Successfully]]>
+    </line>
+    <line>
+      <![CDATA[player name as Shubman Gill is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[team name as GT is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Total runs of Shubman Gill is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Highest Score of Shubman Gill is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Average Score of Shubman Gill is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Strike Rate of Shubman Gill is verified Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Sixes Count of Shubman Gill is verified Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-06T19:03:15 IST" name="Default suite" finished-at="2023-06-06T19:04:25 IST" duration-ms="69833">
+    <groups>
+    </groups>
+    <test started-at="2023-06-06T19:03:15 IST" name="Default test" finished-at="2023-06-06T19:04:25 IST" duration-ms="69833">
+      <class name="org.POM_Test_Cases.StatisticsPageDeatilsTC">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:15 IST" name="initializeBrowser" finished-at="2023-06-06T19:03:33 IST" duration-ms="18527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyThatStatisticsPageIsDisplay()[pri:1, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:33 IST" name="verifyThatStatisticsPageIsDisplay" finished-at="2023-06-06T19:03:34 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Stats Page Title Verified Successfully = Players Stats and Records | IPLT20]]>
+            </line>
+            <line>
+              <![CDATA[Stats Page URL Verified Successfully = https://www.iplt20.com/stats/2023]]>
+            </line>
+            <line>
+              <![CDATA[Stats Page is Displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatStatisticsPageIsDisplay -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:34 IST" name="CloseBrowser" finished-at="2023-06-06T19:03:35 IST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatStatisticsPageIsDisplay status=SUCCESS method=StatisticsPageDeatilsTC.verifyThatStatisticsPageIsDisplay()[pri:1, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025] output=Stats Page Title Verified Successfully = Players Stats and Records | IPLT20]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:35 IST" name="initializeBrowser" finished-at="2023-06-06T19:03:51 IST" duration-ms="16118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyThatSearchFunctionalityOfStatsPage()[pri:2, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:51 IST" name="verifyThatSearchFunctionalityOfStatsPage" finished-at="2023-06-06T19:03:51 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cookie accepted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Search Functionality is Displayed Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Search Functionality is Enabled Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFunctionalityOfStatsPage -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:51 IST" name="CloseBrowser" finished-at="2023-06-06T19:03:52 IST" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatSearchFunctionalityOfStatsPage status=SUCCESS method=StatisticsPageDeatilsTC.verifyThatSearchFunctionalityOfStatsPage()[pri:2, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025] output=Cookie accepted successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:03:52 IST" name="initializeBrowser" finished-at="2023-06-06T19:04:07 IST" duration-ms="14928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyThatShubhmanGillsDetailsOnStatsPage()[pri:3, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:04:07 IST" name="verifyThatShubhmanGillsDetailsOnStatsPage" finished-at="2023-06-06T19:04:07 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[player name as Shubman Gill is verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[team name as GT is verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatShubhmanGillsDetailsOnStatsPage -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:04:07 IST" name="CloseBrowser" finished-at="2023-06-06T19:04:08 IST" duration-ms="681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatShubhmanGillsDetailsOnStatsPage status=SUCCESS method=StatisticsPageDeatilsTC.verifyThatShubhmanGillsDetailsOnStatsPage()[pri:3, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025] output=player name as Shubman Gill is verified Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:04:08 IST" name="initializeBrowser" finished-at="2023-06-06T19:04:23 IST" duration-ms="15824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyThatShubhmanGillsStatisticsDetailsOnStatsPage()[pri:4, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:04:23 IST" name="verifyThatShubhmanGillsStatisticsDetailsOnStatsPage" finished-at="2023-06-06T19:04:24 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total runs of Shubman Gill is verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Highest Score of Shubman Gill is verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Average Score of Shubman Gill is verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Strike Rate of Shubman Gill is verified Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Sixes Count of Shubman Gill is verified Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatShubhmanGillsStatisticsDetailsOnStatsPage -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025]" started-at="2023-06-06T19:04:24 IST" name="CloseBrowser" finished-at="2023-06-06T19:04:25 IST" duration-ms="864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThatShubhmanGillsStatisticsDetailsOnStatsPage status=SUCCESS method=StatisticsPageDeatilsTC.verifyThatShubhmanGillsStatisticsDetailsOnStatsPage()[pri:4, instance:org.POM_Test_Cases.StatisticsPageDeatilsTC@3a93b025] output=Total runs of Shubman Gill is verified Successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- org.POM_Test_Cases.StatisticsPageDeatilsTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
